@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .effect {
+               padding: 2em;
+            }
+            .button {
+                border-radius: 4px;
+                border-style: none;
+                width: 12em;
+                height: 6em;
+                color: white;
+                font-size: 1em;
+                font-family: "Open sans";
+                font-weight: bold; 
+                display: inline-block;
+                cursor: pointer;
+                -webkit-transition-duration: 0.4s; 
+                transition-duration: 0.4s;
+                
+            }
+
+            .button1 {              
+                background-color: #E24F44
+                
+            }
+
+            .button2 {              
+                background-color: #E8B029;
+                
+            }
+
+            .button3 {
+                background-color: #158F97;
+                
+            }
+
+            .button4 {
+                background-color: #E96E80;
+                
+            }
+
+            .button5 {
+                background-color: #0D724D;        
+            }
+
+            .button6 {              
+                border: 2px solid #E24F44;
+                color: #232323;
+            }
+
+            .button7 {
+                border: 2px solid #E8B029;
+                color: #232323;
+            }
+
+            .button8 {
+                border: 2px solid #158F97;
+                color: #232323;
+            }
+
+            .button9 {
+                border: 2px solid #E96E80; 
+                color: #232323;       
+            }
+
+            .button10 {
+                border: 2px solid #0D724D; 
+                color: #232323;       
+            }
+            .button11 {              
+                background-color: #E24F44
+                
+            }
+
+            .button12 {              
+                background-color: #E8B029;
+                
+            }
+
+            .button13 {
+                background-color: #158F97;
+                
+            }
+
+            .button14 {
+                background-color: #E96E80;
+                
+            }
+
+            .button15 {
+                background-color: #0D724D;        
+            }
+
+
+/*hover effects - background color change*/
+            .button1:hover {
+                background-color: #0D724D;
+                color: white;
+            }
+            
+            .button2:hover {
+                background-color: #E96E80;
+                color: white;
+            }
+
+            .button3:hover {
+                background-color: #E24F44;
+                color: white;
+            }
+
+            .button4:hover {
+                background-color: #E8B029;
+                color: white;
+            }
+
+            .button5:hover {
+                background-color: #158F97;
+                color: white;
+            }
+        /*hover effects - border change*/    
+            .button6:hover {
+                background-color: #E24F44;
+                color: #232323;
+            }
+
+            .button7:hover {
+                background-color: #E8B029;
+                color: #232323;
+            }
+
+            .button8:hover {
+                background-color: #158F97;
+                color: white;
+            }
+
+            .button9:hover {
+                background-color: #E96E80;
+                color: white;
+            }
+
+            .button10:hover {
+                background-color: #0D724D;
+                color: white;
+            }
+        /*hover effects - background color change*/
+            .button11:hover {
+                background-color: #0D724D;
+                color: white;
+            }
+            
+            .button12:hover {
+                background-color: #E96E80;
+                color: white;
+            }
+
+            .button13:hover {
+                background-color: #E24F44;
+                color: white;
+            }
+
+            .button14:hover {
+                background-color: #E8B029;
+                color: white;
+            }
+
+            .button15:hover {
+                background-color: #158F97;
+                color: white;
+            }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+
+        </style>
+
+        <body>
+            <div class="button-grps">
+                <div class="color-change effect">
+                    <button class="button button1">Get started</button>
+                    <button class="button button2">Get started</button>
+                    <button class="button button3">Get started</button>
+                    <button class="button button4">Get started</button>
+                    <button class="button button5">Get started</button> 
+                </div> 
+                <div class="border-change effect">
+                    <button class="button button6">Get started</button>
+                    <button class="button button7">Get started</button>
+                    <button class="button button8">Get started</button>
+                    <button class="button button9">Get started</button>
+                    <button class="button button10">Get started</button> 
+                </div> 
+                <div class="color-change effect">
+                    <button class="button button11"><span>Get started</span></button>
+                    <button class="button button12"><span>Get started</span></button>
+                    <button class="button button13"><span>Get started</span></button>
+                    <button class="button button14"><span>Get started</span></button>
+                    <button class="button button15"><span>Get started</span></button> 
+                </div> 
+            </div>  
+            
+            
+        </body>
+    </head>
+</html>
