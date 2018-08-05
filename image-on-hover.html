@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My portfolio</title>
+        <style>
+            body {
+                background-image: url("https://images.pexels.com/photos/1287502/pexels-photo-1287502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");        
+            }
+
+            h1{
+                font-family: "Open sans";
+                font-weight: bolder;
+                color: #4E5466;
+                font-size: 3em;
+                margin-top: 100px;
+                margin-bottom: 0;
+            }
+
+            h2{
+                font-family: "Open sans";
+                font-weight: normal;
+                color: #4E5466;
+                margin-top: 5px;
+                margin-bottom: 50px;
+            }
+
+            span {
+                color: #232323;
+                transition: 1s;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .container{
+                display: inline-flex;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .picture {
+                opacity: 0.5;
+                transition: .5s;
+                cursor: pointer;
+                padding: 10px;
+            }
+
+            .picture:hover {
+                opacity: 1;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+
+            span:hover{
+                color: #84BEB6;
+                
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1 align="center">MY PORTFOLIO</h1>
+            <h2 align="center"> MY LATEST WORK. <a href="#"><span>SEE MORE ></span></a></h2>
+            <div class="container">
+                <div class="picture">
+                    <a href="#"><img  src="https://images.pexels.com/photos/1211746/pexels-photo-1211746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="cactus" width="330" height="320"></a>
+                </div>
+
+                <div class="picture">
+                    <a href="#"><img src="https://images.pexels.com/photos/1048024/pexels-photo-1048024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="cactus"width="330" height="320"></a>
+                </div>
+
+                <div class="picture">
+                    <a href="#"><img src="https://images.pexels.com/photos/800176/pexels-photo-800176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt="cactus"width="330" height="320"></a>
+                </div>
+            </div>
+    </main>
+    </body>
+
+</html>
