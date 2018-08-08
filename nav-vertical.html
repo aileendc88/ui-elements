@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <style>
+    body, div, ul, li {
+        padding: 0;
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    li {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .vertical-menu {
+        height: 100vh;
+        background-color: #eee;
+        color: black;
+        list-style: none;
+    }
+    .vertical-menu li:hover {
+        background-color: #ccc;
+    }
+    .vertical-menu li {
+        height: 25vh;
+    }
+
+    /**
+    * For flex box
+    */
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        align-items: center;
+    }
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+    }
+    </style>
+  </head>
+  <body>
+    <ul class="vertical-menu">
+        <li class="flex-row">
+            <a href="#" class="fas fa-beer flex-col" aria-hidden="true"></a>
+            <div class="flex-col">BEER</div>
+            <div class="flex-col"><i class="fa fa-angle-double-right"></i></div>
+        </li>
+        <li class="flex-row">
+          <a href="#" class="fas fa-beer flex-col" aria-hidden="true"></a>
+          <div class="flex-col">BEER</div>
+          <div class="flex-col"><i class="fa fa-angle-double-right"></i></div>
+        </li>
+        <li class="flex-row">
+          <a href="#" class="fas fa-beer flex-col" aria-hidden="true"></a>
+          <div class="flex-col">BEER</div>
+          <div class="flex-col"><i class="fa fa-angle-double-right"></i></div>
+        </li>
+        <li class="flex-row">
+          <a href="#" class="fas fa-beer flex-col" aria-hidden="true"></a>
+          <div class="flex-col">BEER</div>
+          <div class="flex-col"><i class="fa fa-angle-double-right"></i></div>
+        </li>
+    </ul>
+  </body>
+</html>

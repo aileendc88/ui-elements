@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>New Arrivals</title>
+        <style>
+            h1{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: lighter;
+                margin-top: 5%;
+            }
+
+            h4{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                margin: 0;
+                font-weight: 500;
+
+            }
+            .container {
+                display: inline-flex;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+        
+            .tiles{
+                position: relative;
+                width: 25%;
+                font-weight: lighter;
+            }
+
+            .image{
+                opacity: 1;
+                display: block;
+                width: 25%;
+                height: auto;
+                transition: .3s ease;
+                
+            }
+
+            .quick-view{
+                transition: .3s ease;
+                opacity: 0;
+                position: absolute;
+                top: 74%;
+                left: 35%;
+                text-align: center;
+            }  
+
+            .shirt-name{
+                margin-bottom: 10px;
+            }
+
+              .text{
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px;
+                font-size: 10px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: lighter;
+            }
+
+            .shop-all{
+                display: flex;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .button{
+                border: 1px solid #232323;
+                color: #232323;
+                padding: 10px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 14px;
+                margin-top: 5%;
+                cursor: pointer;
+                transition: 0.3s ease-in;
+            }
+
+            .tiles:hover .quick-view{
+                opacity: .7;
+            }
+
+            button:hover{
+                background-color: #232323;
+                color: white;
+            }
+
+          
+
+        </style>
+    </head>
+    <body>
+        <h1 align="center">New Arrivals</h1>
+        <div class="container">
+            <div class="tiles">
+                <img class="image" src="https://static.wixstatic.com/media/45d10e_3db73503839540b29a3479fcdf8be0ed~mv2.jpg/v1/fill/w_790,h_790,q_85,usm_0.66_1.00_0.01/45d10e_3db73503839540b29a3479fcdf8be0ed~mv2.jpg" alt="tshirt" style="width:100%">
+                <div class="quick-view">
+                    <div class="text">QUICK VIEW</div>
+                </div>
+                <h4 class ="shirt-name" align="center">Blobs</h4>
+                <h4 align="center">$9.99</h4>
+            </div>
+
+            <div class="tiles">
+                <img class="image" src="https://static.wixstatic.com/media/45d10e_d1b99b25e1d64f8e9944be79633a0f0a~mv2.jpg/v1/fill/w_790,h_790,q_85,usm_0.66_1.00_0.01/45d10e_d1b99b25e1d64f8e9944be79633a0f0a~mv2.jpg" alt="tshirt" style="width:100%">
+                <div class="quick-view">
+                    <div class="text">QUICK VIEW</div>
+                </div>
+                <h4 class ="shirt-name" align="center">Stripes</h4>
+                <h4 align="center">$9.99</h4>
+            </div>
+
+            <div class="tiles">
+                <img class="image" src="https://static.wixstatic.com/media/45d10e_65b8703bd96b4553940f9304982283e5~mv2.jpg/v1/fill/w_790,h_790,q_85,usm_0.66_1.00_0.01/45d10e_65b8703bd96b4553940f9304982283e5~mv2.jpg" alt="tshirt" style="width:100%">
+                    <div class="quick-view">
+                        <div class="text">QUICK VIEW</div>
+                    </div>
+                <h4 class ="shirt-name" align="center">Diamonds</h4>
+                <h4 align="center">$9.99</h4>
+            </div>
+
+            <div class="tiles">
+                <img class="image" src="https://static.wixstatic.com/media/45d10e_0d415a0c8f114c4592cab54a73662f7b~mv2.jpg/v1/fill/w_790,h_790,q_85,usm_0.66_1.00_0.01/45d10e_0d415a0c8f114c4592cab54a73662f7b~mv2.jpg" alt="tshirt" style="width:100%">
+                <div class="quick-view">
+                    <div class="text">QUICK VIEW</div>
+                </div>
+                <h4 class ="shirt-name" align="center">Confetti</h4>
+                <h4 align="center">$9.99</h4>
+            </div>
+        </div>
+
+        <div class="shop-all">
+            <button class="button">Shop All</button>
+        </div>
+            
+    </body>
+</html>
